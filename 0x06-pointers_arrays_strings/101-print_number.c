@@ -4,7 +4,7 @@
  * print_number - print numbers chars
  * @n: integer params
  * Return: o
- **/
+ */
 
 void print_number(int n)
 {
