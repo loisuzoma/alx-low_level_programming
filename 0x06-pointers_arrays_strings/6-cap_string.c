@@ -29,7 +29,7 @@ char *cap_string(char *s)
 			 * if we find any character matching the below before any small
 			 * letter we change that value to a capital letter.
 			 */
-			if (s[i - 1] == 32 || s[i - 1] == || s[i - 1] == 10 ||
+			if (s[i - 1] == 32 || s[i - 1] == 9 || s[i - 1] == 10 ||
 					s[i - 1] == 44 || s[i - 1] == 59 || s[i - 1] == 46 ||
 					s[i - 1] == 33 || s[i - 1] == 63 || s[i - 1] == 34 ||
 					s[i - 1] == 40 || s[i - 1] == 41 || s[i - 1] == 123 ||
