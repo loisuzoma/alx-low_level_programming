@@ -1,7 +1,7 @@
-#include "variadic_functions"
+#include "variadic_functions.h"
 
 /**
- * print_all: prints anything.
+ * print_all - prints anything.
  * @format: a list of types of arguments passed to the function.
  *
  * Return: no return.
@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == t_arg[j] && c)
 			{
-				printf(" , ");
+				printf(", ");
 				break;
 			} j++;
 		}
