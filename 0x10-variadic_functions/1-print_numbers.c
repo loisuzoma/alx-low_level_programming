@@ -18,8 +18,8 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 	/* initialize the argument list from the start */
 	va_start(ap, n);
 
-	/* iterate through each argument*/
-	for (index = 0, index < n; index++)
+	/* iterate through each argument */
+	for (index = 0; index < n; index++)
 	{
 		/* print next argument */
 		printf("%d", va_arg(ap, int));
